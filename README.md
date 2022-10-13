@@ -1,7 +1,13 @@
 # TP-HSE-2022-HW
-![workflow](https://github.com/evgenius1544/tp-hse-2022-hw/actions/workflows/github-actions-demo.yml/badge.svg)
+
+[![Python package](https://github.com/evgenius1544/tp-hse-2022-hw/actions/workflows/test_action.yml/badge.svg)](https://github.com/evgenius1544/tp-hse-2022-hw/actions/workflows/test_action.yml)
 
 ## Usage
+
+- Install dependencies
+```shell
+pip3 install -r app/requirements.txt
+```
 
 - Run application
 ```shell
