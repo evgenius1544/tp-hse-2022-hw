@@ -5,7 +5,7 @@
 
 - Run application
 ```shell
-python3 -m app.main test_my_own_values.txt 
+python3 -m app.main ./app/test_my_own_values.txt 
 ```
 
 - Run tests
@@ -27,7 +27,7 @@ python3 -m app.test_work_time
 
 `x - elements, y - time`
 
-![](test_work_time_result.png)
+![](test_work_time_result.svg)
 
 ## Results
 - Realised tests for all function: min, max, sum, mult. 

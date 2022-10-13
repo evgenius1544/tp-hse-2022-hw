@@ -12,7 +12,7 @@ def get_test_work_time(to_visual: bool = False) -> None:
 
     for count in [i for i in range(0, 1000000 + 1, 10000)][1:]:
         time_start = time.time()
-        m.main(f"./tests/test_el_{count}.txt")
+        m.main(f"./app/tests/test_el_{count}.txt")
         time_end = time.time()
 
         work_time = time_end - time_start
