@@ -4,7 +4,7 @@ where values are equivalent, monotonic and two types.
 """
 
 import unittest
-import main as m
+import app.main as m
 
 
 class MinimumTest(unittest.TestCase):
@@ -66,7 +66,7 @@ class MultiplicationTest(unittest.TestCase):
 class ReadTest(unittest.TestCase):
     def test(self):
         self.assertTrue(
-            m._read("tests/test_for_read.txt") == [1, 2, 3, 4, 0, 0, -1, -1]
+            m._read("./app/tests/test_el_read.txt") == [1, 2, 3, 4, 0, 0, -1, -1]
         )
 
 

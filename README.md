@@ -6,22 +6,22 @@
 
 - Run application
 ```shell
-python3 main.py test_my_own_values.txt 
+python3 -m app.main test_my_own_values.txt 
 ```
 
 - Run tests
 ```shell
-python3 test.py
+python3 -m app.test
 ```
 
 - Run generator for speed test
 ```shell
-python3 test_generator.py
+python3 -m app.test_generator
 ```
 
 - Run tests for checking work time dependence of elements
 ```shell
-python3 test_work_time.py
+python3 -m app.test_work_time
 ``` 
 
 > Graph of the dependence of the execution time on the number of numbers in the file; `x - elements, y - time`.

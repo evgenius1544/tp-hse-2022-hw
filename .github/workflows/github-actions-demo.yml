@@ -16,4 +16,4 @@ jobs:
     
       - name: Test with unittest
         run: |
-          python3 ./app/test.py
+          python3 -m app.test

@@ -1,5 +1,5 @@
 import time
-import main as m
+import app.main as m
 
 
 def get_test_work_time(to_visual: bool = False) -> None:
