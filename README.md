@@ -1,6 +1,5 @@
 # TP-HSE-2022-HW
 ![workflow](https://github.com/evgenius1544/tp-hse-2022-hw/actions/workflows/github-actions-demo.yml/badge.svg)
-![example workflow](https://github.com/github/docs/actions/workflows/main.yml/badge.svg)
 
 ## Usage
 
@@ -24,7 +23,9 @@ python3 -m app.test_generator
 python3 -m app.test_work_time
 ``` 
 
-> Graph of the dependence of the execution time on the number of numbers in the file; `x - elements, y - time`.
+> Graph of the dependence of the execution time on the number of numbers in the file;
+
+`x - elements, y - time`
 
 ![](test_work_time_result.png)
 
@@ -35,3 +36,6 @@ python3 -m app.test_work_time
 - Processed some actions in friendly form when user don't upload file or file doesn't exist.
 - Created own test generator.
 - Built graph of the dependence time and elements.
+- Run tests in GitHub Actions.
+- Run tests automatically by commit.
+- Added badge.
