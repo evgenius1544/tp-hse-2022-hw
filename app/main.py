@@ -11,10 +11,9 @@ from functools import reduce
 
 from typing import Union
 from typing import List
-from typing_extensions import TypeAlias
 
 
-Number: TypeAlias = Union[int, float]
+Number = Union[int, float]
 
 
 def _min(values: List[Number]) -> Number:
@@ -35,7 +34,7 @@ def _min(values: List[Number]) -> Number:
 def _max(values: List[Number]) -> Number:
     """
     _max
-        Finds maxx element in sequence.
+        Finds max element in sequence.
 
     Args:
         values (List[Number]): values.

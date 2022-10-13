@@ -1,5 +1,5 @@
 """
-Util for genirating tests with random values and 10000 step.
+Util for generating tests with random values and 10000 step.
 """
 
 import random
