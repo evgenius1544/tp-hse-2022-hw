@@ -6,7 +6,7 @@
 
 - Install dependencies
 ```shell
-pip3 install -r app/requirements.txt
+pip3 install -r requirements.txt
 ```
 
 - Run application
