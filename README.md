@@ -1,6 +1,6 @@
 # TP-HSE-2022-HW
 
-[![Python package](https://github.com/evgenius1544/tp-hse-2022-hw/actions/workflows/test_action.yml/badge.svg)](https://github.com/evgenius1544/tp-hse-2022-hw/actions/workflows/test_action.yml)
+[![Test-Action](https://github.com/evgenius1544/tp-hse-2022-hw/actions/workflows/test_action.yml/badge.svg)](https://github.com/evgenius1544/tp-hse-2022-hw/actions/workflows/test_action.yml)
 
 ## Usage
 
