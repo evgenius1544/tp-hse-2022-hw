@@ -1,6 +1,6 @@
-name: Python package
+name: Test-Action
 
-on: [push]
+on: [push, pull_request, workflow_run, commit_comment, check_run, ]
 
 jobs:
   build:
