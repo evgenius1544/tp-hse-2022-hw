@@ -1,0 +1,27 @@
+name: Test-Action
+
+on: [push, pull_request, check_run]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.8'
+    
+      - name: Test with unittest
+        run: |
+          python3 -m app.test
+      
+      - name: send custom message
+        uses: appleboy/telegram-action@master
+        with:
+          to: ${{ secrets.TELEGRAM_TO }}
+          token: ${{ secrets.TELEGRAM_TOKEN }}
+          message: |
+            New v.${{ github.run_id }} version was published.
