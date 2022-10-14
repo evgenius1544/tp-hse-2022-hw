@@ -1,6 +1,6 @@
 name: Test-Action
 
-on: [push, pull_request, workflow_run, commit_comment, check_run, ]
+on: [push, pull_request, workflow_run, check_run]
 
 jobs:
   build:
