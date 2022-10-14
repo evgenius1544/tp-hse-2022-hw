@@ -45,3 +45,4 @@ python3 -m app.test_work_time
 - Run tests in GitHub Actions.
 - Run tests automatically by commit.
 - Added badge.
+- Added bot notification.
